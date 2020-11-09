@@ -18,6 +18,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+
+        <dependency>
             <groupId>za.co.absa</groupId>
             <artifactId>abris_${scala.compat.version}</artifactId>
             <version>4.0.0</version>
