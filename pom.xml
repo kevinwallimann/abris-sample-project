@@ -10,28 +10,22 @@
     <packaging>jar</packaging>
 
     <properties>
-        <scala.version>2.11.12</scala.version>
-        <scala.compat.version>2.11</scala.compat.version>
+        <scala.version>2.12.12</scala.version>
+        <scala.compat.version>2.12</scala.compat.version>
         <scala.maven.plugin.version>3.3.2</scala.maven.plugin.version>
         <maven.shade.plugin.version>3.2.4</maven.shade.plugin.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.avro</groupId>
-            <artifactId>avro</artifactId>
-            <version>1.9.2</version>
-        </dependency>
-
-        <dependency>
             <groupId>za.co.absa</groupId>
             <artifactId>abris_${scala.compat.version}</artifactId>
-            <version>4.0.0</version>
+            <version>5.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_${scala.compat.version}</artifactId>
-            <version>2.4.3</version>
+            <version>3.2.0</version>
         </dependency>
     </dependencies>
 
